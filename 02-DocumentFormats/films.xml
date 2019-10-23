@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<movies>
 <movie>
     <title>Shutter Island</title>
     <genre>drama</genre>
@@ -92,3 +93,4 @@
         <surname>Worthington</surname>
     </actor>
 </movie>
+</movies>
