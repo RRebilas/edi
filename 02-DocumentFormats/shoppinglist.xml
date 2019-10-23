@@ -1,29 +1,67 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <ShoppingList>
-	<meat>
-		<product>
-			<name>ham</name>
-			<quantity unit="kg">0.5</quantity>
-		</product>
-	</meat>
-	<vegetables>
-		<product>
-			<name>green beans</name>
-			<quantity unit="kg">1</quantity>
-		</product>
-		<product>
-			<name>potatoes</name>
-			<quantity unit="kg">2</quantity>
-		</product>	
-	</vegetables>
-	<dairy>
-		<product>
-			<name>cheese</name>
-			<quantity unit="kg">0.2</quantity>
-		</product>
-		<product>
-			<name>eggs</name>
-			<quantity unit="pcs">10</quantity>
-		</product>
-	</dairy>
+	<product category="meat">
+		<name>
+			ham
+		</name>
+		<quantity unit="kg">
+			0.5
+		</quantity>
+	</product>
+	<product category="vegetables">
+		<name>
+			green beans
+		</name>
+		<quantity unit="kg">
+			1
+		</quantity>
+	</product>
+	<product category="vegetables">
+		<name>
+			potatoes
+		</name>
+		<quantity unit="kg">
+			2
+		</quantity>
+	</product>
+	<product category="dairy">
+		<name>
+			cheese
+		</name>
+		<quantity unit="kg">
+			0.2
+		</quantity>
+	</product>
+	<product category="dairy">
+		<name>
+			eggs
+		</name>
+		<quantity unit="pcs">
+			10
+		</quantity>
+	</product>
+	<product category="beverages">
+		<name>
+			beer
+		</name>
+		<quantity unit="pcs">
+			40
+		</quantity>
+	</product>
+	<product category="beverages">
+		<name>
+			orange juice
+		</name>
+		<quantity unit="cartoons">
+			50
+		</quantity>
+	</product>
+	<product category="beverages">
+		<name>
+			soda
+		</name>
+		<quantity unit="cans">
+			45
+		</quantity>
+	</product>
 </ShoppingList>

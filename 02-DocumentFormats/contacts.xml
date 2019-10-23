@@ -22,4 +22,12 @@
 		<phone type="work">6660611</phone>
 		<notes>my best friend</notes>
 	</contact>
+	<contact>
+		<name>Rafał</name>
+		<surname>Rebilas</surname>
+		<email type="personal">rrafal238432@gmail.com</email>
+		<email type="university">s215790@student.uek.krakow.pl</email>
+		<phone type="personal">112654621</phone>
+		<notes>it's me!</notes>
+	</contact>
 </contacts>

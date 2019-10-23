@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<movie>
+    <title>Shutter Island</title>
+    <genre>drama</genre>
+    <year>2010</year>
+    <personal_rating>10</personal_rating>
+    <director gender="male" country="USA">
+        <name>Martin</name>
+        <surname>Scorsese</surname>
+    </director>
+    <actor>
+        <name>Leonardo</name>
+        <surname>Di Caprio</surname>
+    </actor>
+    <actor>
+        <name>Mark</name>
+        <surname>Ruffalo</surname>
+    </actor>
+</movie>
+<movie>
+    <title>Good Will Haunting</title>
+    <genre>drama</genre>
+    <year>1998</year>
+    <personal_rating>9</personal_rating>
+    <director origin = "USA" gender="male">
+        <name>Gus</name>
+        <surname>Van sant</surname>
+    </director>
+    <actor gender="male" origin = "USA">
+        <name>Matt</name>
+        <surname>Damon</surname>
+    </actor>
+    <actor gender="male" origin = "USA">
+        <name>Robin</name>
+        <surname>Williams</surname>
+    </actor>
+</movie>
+
+<movie>
+    <title>The Shawshank Redemption</title>
+    <genre>drama</genre>
+    <year>1994</year>
+    <personal_rating>9</personal_rating>
+    <director gender= "male" origin= "France">
+        <name>Frank</name>
+        <surname>Darabont</surname>
+    </director>
+    <actor gender="male" origin="USA">
+        <name>Tim</name>
+        <surname>Robins</surname>
+    </actor>
+    <actor gender="male" origin="USA">
+        <name>Morgan</name>
+        <surname>Freeman</surname>
+    </actor>
+</movie>
+
+<movie>
+    <title>Interstellar</title>
+    <genre>Sci-Fi</genre>
+    <year>2014</year>
+    <personal_rating>8</personal_rating>
+    <director gender="male" origin="USA">
+        <name>Christopher</name>
+        <surname>Nolan</surname>
+    </director>
+    <actor gender="male" origin="USA">
+        <name>Matthew</name>
+        <surname>McConaughey</surname>
+    </actor>
+    <actor gender="female" origin="USA">
+        <name>Anne</name/>
+        <surname>Hatheway</surname>
+    </actor>
+</movie>
+
+<movie>
+    <title>Hacksaw Ridge</title>
+    <genre>biographical</genre>
+    <year>2016</year>
+    <personal_rating>9</personal_rating>
+    <director gender="male" origin="USA">
+        <name>Mel</name>
+        <surname>Gibson</surname>
+    </director>
+    <actor gender="male" origin="USA">
+        <name>Andrew</name>
+        <surname>Garfield</surname>
+    </actor>
+    <actor gender="male" origin="USA">
+        <name>Sam</name/>
+        <surname>Worthington</surname>
+    </actor>
+</movie>
