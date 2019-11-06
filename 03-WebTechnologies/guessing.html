@@ -9,11 +9,12 @@
 
 		<script>
 			// read user's number (popup window)
-			
+			var enteredNumber = parseInt(prompt('Podaj liczbę z zakresu (1-5)'))
 			// create a random number
-			
+			var number = Math.floor(Math.random() * (6 - 1) + 1);
+			console.log(number);
 			// compare the numbers
-			
+			alert(enteredNumber == number ? 'Good work' : 'Sorry');
 			// show results (popup window)
 			
 		</script>
