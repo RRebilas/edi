@@ -21,7 +21,19 @@
 		
 		<script>
 			// a JavaScript code here ...
-			
+			const h1 = document.querySelector('h1');
+			const title = h1.textContent;
+			h1.addEventListener('click', function () {
+				h1.textContent = `${title}(Part2)`;
+			});
+			let desc = document.querySelector("p[style]");
+			document.querySelector('h3').addEventListener('click', function () {
+				desc.setAttribute('style', 'visibility: visible');
+			});
+			document.querySelector('p').addEventListener('click', function () {
+				this.setAttribute('style', 'font-style: italic');
+			})
+
 		</script>
 	</body>
 </html>
