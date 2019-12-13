@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Create DOM elements</title>
+		<title>Text translation</title>
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<h3>Sticks and stones may break my bones, but words will never harm me.</h3>
+		<h3 onmouseover="textPL(this)">Sticks and stones may break my bones, but words will never harm me.</h3>
 		<script>
 			// a JavaScript code here ...
 			let english = "Sticks and stones may break my bones, but words will never harm me.";
@@ -21,7 +21,10 @@
 			});
 			// Translation:
 			// Kije i kamienie kości mi połamią, ale twoje słowa nigdy mnie nie zranią
-			
+
+			function textPL(element){
+				element.innerHTML = "Kije i kamienie kości mi połamią, ale twoje słowa nigdy mnie nie zranią"
+			}
 		</script>
 	</body>
 </html>
